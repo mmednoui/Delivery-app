@@ -1,3 +1,39 @@
+import I1 from "../img/i1.png";
+import F1 from "../img/f1.png";
+import C3 from "../img/c3.png";
+import Fi1 from "../img/fi1.png";
+
+export const heroData = [
+  {
+    id: 1,
+    name: "Icecream",
+    decp: "Chocolate & vanilla",
+    price: "5.25",
+    imageSrc: I1,
+  },
+  {
+    id: 2,
+    name: "Strawberries",
+    decp: "Fresh Strawberries",
+    price: "10.25",
+    imageSrc: F1,
+  },
+  {
+    id: 3,
+    name: "Chicken Kebab",
+    decp: "Mixed Kebab Plate",
+    price: "8.25",
+    imageSrc: C3,
+  },
+  {
+    id: 4,
+    name: "Fish Kebab",
+    decp: "Mixed Fish Kebab",
+    price: "5.25",
+    imageSrc: Fi1,
+  },
+];
+
 export const categories = [
   {
     id: 1,
@@ -6,13 +42,13 @@ export const categories = [
   },
   {
     id: 2,
-    name: "Beef",
-    urlParamName: "beef",
+    name: "Curry",
+    urlParamName: "curry",
   },
   {
     id: 3,
-    name: "Mutton",
-    urlParamName: "mutton",
+    name: "Rice",
+    urlParamName: "rice",
   },
   {
     id: 4,
@@ -21,70 +57,18 @@ export const categories = [
   },
   {
     id: 5,
-    name: "Pizza",
-    urlParamName: "pizza",
+    name: "Fruits",
+    urlParamName: "fruits",
   },
   {
     id: 6,
-    name: "Snack",
-    urlParamName: "snacks",
+    name: "Icecreams",
+    urlParamName: "icecreams",
   },
+
   {
     id: 7,
-    name: "Deserts",
-    urlParamName: "deserts",
-  },
-  {
-    id: 8,
     name: "Soft Drinks",
     urlParamName: "drinks",
-  },
-];
-
-export const foodItemsStatic = [
-  {
-    id: "1647820416809",
-    calories: "120",
-    category: "chicken",
-    imageURL:
-      "https://firebasestorage.googleapis.com/v0/b/foodapp-mar22.appspot.com/o/Images%2F1647820363190-kebab.png?alt=media&token=0c23a6a5-17fc-4f75-b209-4a50bd537ece",
-    price: "10",
-    title: "Chicken Kebab",
-  },
-  {
-    id: "1647820581313",
-    calories: "100",
-    category: "chicken",
-    imageURL:
-      "https://firebasestorage.googleapis.com/v0/b/foodapp-mar22.appspot.com/o/Images%2F1647820550346-pasta.png?alt=media&token=0bb88498-3d97-4256-a042-f1779b36627a",
-    price: "8.5",
-    title: "Spicy Chilly Cheese Pasta",
-  },
-  {
-    id: "1647820625440",
-    calories: "60",
-    category: "chicken",
-    imageURL:
-      "https://firebasestorage.googleapis.com/v0/b/foodapp-mar22.appspot.com/o/Images%2F1647820597714-noodles.png?alt=media&token=2f18702b-e6b3-4145-8f72-1d200941930b",
-    price: "12.5",
-    title: "Pepper Max Noodles",
-  },
-  {
-    id: "1647821206472",
-    calories: "80",
-    category: "chicken",
-    imageURL:
-      "https://firebasestorage.googleapis.com/v0/b/foodapp-mar22.appspot.com/o/Images%2F1647821188759-friedrice.png?alt=media&token=f345ca53-0071-43cf-b4ed-9c2f65d3ea69",
-    price: "8.5",
-    title: "Chicken Fried Rice",
-  },
-  {
-    id: "1647821596820",
-    calories: "100",
-    category: "fish",
-    imageURL:
-      "https://firebasestorage.googleapis.com/v0/b/foodapp-mar22.appspot.com/o/Images%2F1647821575907-friedfish.png?alt=media&token=4a7a9e87-1ee2-43f6-8932-f18771feb4b2",
-    price: "12.5",
-    title: "Overnight Marinated Fish",
   },
 ];
